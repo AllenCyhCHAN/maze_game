@@ -189,7 +189,7 @@ def moveLeft():
     if not startToMove:
         return
     move(robot_row, robot_col - 1)
-    robot_turtle.shape("/Users/chanyuhin/Downloads/robot_maze_game （python)/gif/robot_left.gif")
+    robot_turtle.shape("/Users/chanyuhin/PycharmProjects/Allen/venv/Maze-Game/src/resource/gif/robot_left.gif")
         
 
 # This function tries to move the robot to the right
@@ -197,7 +197,7 @@ def moveRight():
     if not startToMove:
         return
     move(robot_row, robot_col + 1)
-    robot_turtle.shape("/Users/chanyuhin/Downloads/robot_maze_game （python)/gif/robot_right.gif")
+    robot_turtle.shape("/Users/chanyuhin/PycharmProjects/Allen/venv/Maze-Game/src/resource/gif/robot_right.gif")
 
 
 # This function tries to move the robot up one row
@@ -205,7 +205,7 @@ def moveUp():
     if not startToMove:
         return
     move(robot_row - 1, robot_col)
-    robot_turtle.shape("/Users/chanyuhin/Downloads/robot_maze_game （python)/gif/robot_up.gif")
+    robot_turtle.shape("/Users/chanyuhin/PycharmProjects/Allen/venv/Maze-Game/src/resource/gif/robot_up.gif")
 
 
 # This function tries to move the robot down one row
@@ -213,7 +213,7 @@ def moveDown():
     if not startToMove:
         return
     move(robot_row + 1, robot_col)
-    robot_turtle.shape("/Users/chanyuhin/Downloads/robot_maze_game （python)/gif/robot_down.gif")
+    robot_turtle.shape("/Users/chanyuhin/PycharmProjects/Allen/venv/Maze-Game/src/resource/gif/robot_down.gif")
 
 
 # This function moves the robot based on the given decision
@@ -409,15 +409,15 @@ def startGame():
     turtle.setworldcoordinates(-1, game_map_total_rows + 0.5, game_map_total_cols + 0.5, -1)
 
     # Add the robot images as turtle shapes
-    turtle.addshape("/Users/chanyuhin/Downloads/robot_maze_game （python)/gif/robot_up.gif")
-    turtle.addshape("/Users/chanyuhin/Downloads/robot_maze_game （python)/gif/robot_down.gif")
-    turtle.addshape("/Users/chanyuhin/Downloads/robot_maze_game （python)/gif/robot_left.gif")
-    turtle.addshape("/Users/chanyuhin/Downloads/robot_maze_game （python)/gif/robot_right.gif")
+    turtle.addshape("/Users/chanyuhin/PycharmProjects/Allen/venv/Maze-Game/src/resource/gif/robot_up.gif")
+    turtle.addshape("/Users/chanyuhin/PycharmProjects/Allen/venv/Maze-Game/src/resource/gif/robot_down.gif")
+    turtle.addshape("/Users/chanyuhin/PycharmProjects/Allen/venv/Maze-Game/src/resource/gif/robot_left.gif")
+    turtle.addshape("/Users/chanyuhin/PycharmProjects/Allen/venv/Maze-Game/src/resource/gif/robot_right.gif")
 
     # Create a robot turtle
     robot_turtle = turtle.Turtle()
     robot_turtle.up()
-    robot_turtle.shape("/Users/chanyuhin/Downloads/robot_maze_game （python)/gif/robot_up.gif")
+    robot_turtle.shape("/Users/chanyuhin/PycharmProjects/Allen/venv/Maze-Game/src/resource/gif/robot_up.gif")
 
     # Create a turtle for drawing the game graphics such as the map
     drawing_turtle = turtle.Turtle()
