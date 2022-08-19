@@ -135,7 +135,6 @@ def makeDecisionForTask6():
 
 chooseGameMap("task6", 0)
 
-
 setDecisionFuncForTask4(makeDecisionForTask4)
 setDecisionFuncForTask6(makeDecisionForTask6)
 
